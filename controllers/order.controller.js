@@ -25,7 +25,7 @@ const createOrder = catchAsync(async (req, res, next) => {
   });
 
   // Send success response
-  res.status(200).json({ order });
+  res.status(201).json({ order });
 });
 
 const getUserOrders = catchAsync(async (req, res, next) => {

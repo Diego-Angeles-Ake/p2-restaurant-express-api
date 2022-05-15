@@ -87,7 +87,7 @@ const createReview = catchAsync(async (req, res, next) => {
   });
 
   // Send success response
-  res.status(200).json({ review });
+  res.status(201).json({ review });
 });
 
 const updateReview = catchAsync(async (req, res, next) => {

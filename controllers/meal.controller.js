@@ -40,7 +40,7 @@ const createMeal = catchAsync(async (req, res, next) => {
   });
 
   // Send success response
-  res.status(200).json({ meal });
+  res.status(201).json({ meal });
 });
 
 const updateMeal = catchAsync(async (req, res, next) => {
