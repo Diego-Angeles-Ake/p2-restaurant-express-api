@@ -19,7 +19,7 @@ initModels();
 
 // Model synchronization
 (async () => {
-  await db.sync(synchronization);
+  await db.sync();
   console.log('All models were synchronized successfully.');
 })();
 
